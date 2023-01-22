@@ -12,3 +12,9 @@ fluid_mechanics_rust = { git = "https://github.com/theodoreOnzGit/fluid_mechanic
 local-ip-address = "0.5.1"
 opcua = "0.11.0"
 roots = "0.0.8"
+
+[profile.dev]
+opt-level = 3
+
+[profile.release]
+opt-level = 3

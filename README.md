@@ -11,6 +11,11 @@ Open any of these folders, go into the terminal and run.
 ```zsh
 cargo run --release
 ```
+
+Note: cargo run also works because I forced the optimisation level
+for the default build profile to 3 instead of 0 which is normal for
+debug.
+Cargo run will cause this to work just as fast.
 ## Prerequisites
 
 Note that you will need Openssl to run any of these, due to
